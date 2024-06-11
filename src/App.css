@@ -1,0 +1,314 @@
+.main {
+  background-image: url("./images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+.div11 {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 5px;
+  width: 20%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background: rgb(218, 165, 32);
+  background: linear-gradient(
+    97deg,
+    rgba(218, 165, 32, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: whitesmoke;
+}
+
+.div12 {
+  color: whitesmoke;
+  margin-top: 50px;
+}
+
+.div13 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.div131 {
+  display: flex;
+  width: 23%;
+  justify-content: space-between;
+}
+
+.div132 {
+  width: 73%;
+  color: whitesmoke;
+}
+
+.div131 span {
+  background-color: goldenrod;
+  width: 15px;
+  height: 50px;
+  transform: rotate(30deg);
+}
+
+.div14 {
+  background-image: url("./images/jhope.jpg");
+  height: 695px;
+  margin-top: 50px;
+}
+
+.div2 {
+  margin-top: 80px;
+}
+
+.div21 {
+  color: whitesmoke;
+}
+
+.div22 {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.div221 {
+  width: 38%;
+}
+
+.div222 {
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: goldenrod;
+  color: white;
+  margin-top: 30px;
+  padding: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div223 {
+  width: 58%;
+  background-color: rgb(31, 31, 31);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: goldenrod;
+  width: 40%;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.div224 h4 {
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background-color: rgb(53, 53, 53);
+  width: 30%;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.div224 h3 {
+  color: whitesmoke;
+  padding: 7px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 7px;
+  color: whitesmoke;
+}
+
+.payment-form {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.payment-form form div {
+  margin-bottom: 10px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 925px) {
+  .main {
+    padding-top: 30px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div11 {
+    padding: 3px;
+    width: 50%;
+  }
+
+  .div11 h3 {
+    font-size: 12px;
+  }
+
+  .div12 h1 {
+    font-size: 16px;
+  }
+
+  .div13 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+
+  .div131 {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+  }
+
+  .div132 {
+    width: 83%;
+  }
+
+  .div132 h3 {
+    font-size: 11px;
+    margin-top: -5px;
+  }
+
+  .div131 span {
+    background-color: goldenrod;
+    width: 5px;
+    height: 20px;
+    transform: rotate(30deg);
+  }
+
+  .div14 {
+    background-image: url("./images/jhope.jpg");
+    height: 400px;
+    margin-top: 30px;
+  }
+
+  .div2 {
+    margin-top: 50px;
+  }
+
+  .div21 h3 {
+    font-size: 12px;
+  }
+
+  .div22 {
+    margin-top: 5px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .div221 {
+    width: 36%;
+  }
+
+  .div222 {
+    margin-top: 30px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: rgb(31, 31, 31);
+    display: block;
+  }
+
+  .active {
+    background-color: goldenrod;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .write h4 {
+    font-size: 8px;
+  }
+
+  .write h2 {
+    font-size: 12px;
+  }
+
+  .write1 h2 {
+    font-size: 12px;
+  }
+
+  .div223 {
+    width: 56%;
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .btn {
+    padding: 10px;
+    background-color: goldenrod;
+    width: 90%;
+    color: whitesmoke;
+    border-radius: 10px;
+  }
+
+  .div224 h4 {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    background-color: rgb(53, 53, 53);
+    width: 90%;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .div224 h3 {
+    color: whitesmoke;
+    padding: 7px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 7px;
+    color: whitesmoke;
+  }
+}
