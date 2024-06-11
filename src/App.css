@@ -341,11 +341,8 @@ p {
   }
 
   .btn {
-    padding: 10px;
-    background-color: goldenrod;
+    font-size: 10px;
     width: 90%;
-    color: whitesmoke;
-    border-radius: 10px;
   }
 
   .div224 h4 {
