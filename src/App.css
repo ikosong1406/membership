@@ -371,4 +371,12 @@ p {
     padding: 7px;
     color: whitesmoke;
   }
+
+  label {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 }

@@ -11,7 +11,7 @@ const App = () => {
       id: 1,
       name: "Basic",
       benefits: [
-        "Exclusive access to Lynk's celebrity news and updates",
+        "Exclusive access to BTS celebrity news and updates",
         "10% discount on merchandise",
         "Limited edition digital autographed poster",
         "Access to member-only contests and giveaways",
@@ -224,6 +224,7 @@ const App = () => {
                     display: "flex",
                     justifyContent: "center",
                     color: "whitesmoke",
+                    width: "100%",
                   }}
                 >
                   <h3>0xE447f3Dc0dc5BA8B3e874eB2259bdDff8a7667bA</h3>
